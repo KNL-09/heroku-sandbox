@@ -63,6 +63,6 @@ strong {
   
 .content { padding: 2rem; } 
 .title {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 700;
  } 
