@@ -65,4 +65,31 @@ strong {
 .title {
 	font-size: 3rem;
 	font-weight: 700;
+	margin: 0 0 .5rem;
  } 
+ .form { 
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ .chat { margin: 1rem 0; }
+ .chat-title {
+ 	font-size: 1.6rem;
+ 	display: inline-block;
+ 	margin: 0 0 1rem;
+ 	position: relative;
+ }
+ .chat-title:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -.6rem;
+	width: 50%;
+	height: .6rem;
+	background: #ddd;
+ }
+ .message {
+ 	margin: 0 0 .5rem;
+ 	padding: .5rem;
+ 	background: #ddd;
+ 	border-radius: .4rem;
+ }

@@ -3,11 +3,22 @@
   <head>
     <title>KNL</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
  </head>
   <body>
   <div class="content">
       <p class="title">Hello KNL !</p>
+      <form class="form js-form">
+			<input type="text" class="form-field js-name" placeholder="Nom" required />
+			<input type="text" class="form-field js-field" placeholder="Message" required />
+			<button type="submit" class="form-button">Send</button>      
+      </form>
+      <div class="chat">
+			<p class="chat-title">Chat : </p>
+			<ul class="chat-messages js-chat"></ul>      
       </div>
+  </div>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="assets/js/main.js"></script>
   </body>
 </html>
