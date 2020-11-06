@@ -71,6 +71,11 @@ strong {
  	display: flex;
  	flex-direction: column;
  }
+ .form-field,
+ .form-buton {
+ padding: .5rem;
+ margin: 0 0 .5rem;
+ }
  .chat { margin: 1rem 0; }
  .chat-title {
  	font-size: 1.6rem;
