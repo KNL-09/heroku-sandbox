@@ -1,4 +1,10 @@
 node_modules/*
 server.js~
 index.html~
+cv.html~
+me.html~
+lettre-motivation.html~
 assets/css/main.css~
+assets/sass/cv.sass~
+assets/sass/home.sass~
+assets/sass/motivation.sass~
