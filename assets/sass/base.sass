@@ -1,0 +1,81 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+  -webkit-overflow-scrolling: touch
+
+body, input, textarea
+  font-family: 'Merriweather Sans', sans-serif
+
+$main-color: #AD141E
+$light-color: #FCFECB
+
+::selection
+  color: $main-color
+  background: lighten($main-color, 80%)
+  -webkit-text-fill-color: $main-color
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
+  display: block
+
+html
+  -webkit-text-size-adjust: 100%
+
+body
+  line-height: 1
+  font-size: 62.5%
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after
+  content: ''
+  content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+strong
+  font-weight: 700
+
+@mixin gradient
+  background: #ff9966
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966)
+  background: linear-gradient(to right, #ff5e62, #ff9966)
+
+@mixin gradientLight
+  background: #eacda3
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3)
+  background: linear-gradient(to right, #d6ae7b, #eacda3)
+
+@mixin gradientDark
+  background: #0F2027
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027)
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027)
+
+@mixin redGradient
+  background: #ED213A
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A)
+  background: linear-gradient(to right, #93291E, #ED213A)
