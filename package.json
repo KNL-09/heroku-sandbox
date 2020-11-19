@@ -2,7 +2,7 @@
  "name": "Tests",
  "version": "1.0.0",
  "scripts": {
-  "start": "node-sass assets/sass/home.sass -o assets/css/home.css && node-sass assets/sass/me.sass -o assets/css/me.css && node-sass assets/sass/motivation.sass -o assets/css/motivation.css && node server.js",
+  "start": "node server.js",
   "sass:dev": "node-sass -w assets/sass -o assets/css",
   "sass:prod": "node-sass assets/sass/home.sass -o assets/css/home.css && node-sass assets/sass/me.sass -o assets/css/me.css && node-sass assets/sass/motivation.sass -o assets/css/motivation.css"
   },
