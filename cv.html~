@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>★ CSS Art ★</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/cv.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="icon" sizes="192x192" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAChAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREREREREAABEREREREQAAERERERERAAAREREREREAABEREREREQAAERERERERAAAREREREREAABEREREREQAAERERERERAAAREREREREAABEREREREQAAERERERERAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAP//AAD//wAA">
+  </head>
+  <body>
+    <div class="page">
+      <section class="section card noBackground">
+        <p class="card-name"><span class="card-name-text">Julien FOUQUET</span></p>
+        <p class="card-text">35 ans &middot; TOULOUSE</p>
+        <p class="card-text">06 76 40 64 87 &middot; ju_fouquet@yahoo.fr</p>
+        <p class="card-title">Développeur front-end</p>
+      </section>
+      <section class="section mainSills noBackground">
+        <p class="mainSills-name">HTML &middot; CSS &middot; JavaScript</p>
+        <p class="mainSills-name">HTML &middot; CSS &middot; JavaScript</p>
+        <p class="mainSills-name">HTML &middot; CSS &middot; JavaScript</p>
+        <p class="mainSills-name">HTML &middot; CSS &middot; JavaScript</p>
+      </section>
+      <div class="column left">
+        <section class="section work">
+          <p class="section-title">Expérience professionnelle</p>
+          <ul class="section-list">
+            <li class="section-list-item">
+              <p class="section-list-item-date">Sept. 2017 &middot; Aujourd'hui</p>
+              <p class="section-list-item-title">Lead développeur front-end &middot; Infomil</p>
+              <p class="section-list-item-text">Mise en place de bonnes pratiques, assistance & formation des autres dévelopeurs front-end. 
+                Développement d'applications web variées : tableaux de bords, écrans animés, sites web dédiés mobile...
+                Harmonisation des technologies, optimisation, création d'outils communs. AB Testing</p>
+            </li>
+            <li class="section-list-item">
+              <p class="section-list-item-date">Fév. 2014 &middot; Sept. 2017</p>
+              <p class="section-list-item-title">Développeur front-end &middot; Infomil</p>
+              <p class="section-list-item-text">Intégration, maintenance & optimisation de différents sites & webviews (iOS, android) : E.Leclerc Drive.</p>
+            </li>
+            <li class="section-list-item">
+              <p class="section-list-item-date">Oct. 2012 &middot; Fév. 2014</p>
+              <p class="section-list-item-title">Intégrateur webdesigner &middot; Freelance</p>
+              <p class="section-list-item-text">Conception de sites vitrines (Wordpress) et sous-traitance en webdesign et intégration. AB Testing sur e-commerces</p>
+            </li>
+            <li class="section-list-item">
+              <p class="section-list-item-date">Janv. 2012 &middot; Sept. 2012</p>
+              <p class="section-list-item-title">Chef de projet web &middot; Optéa</p>
+              <p class="section-list-item-text">Gestion et suivi de projets (impression, internet, marketing...)</p>
+            </li>
+            <li class="section-list-item">
+              <p class="section-list-item-date">Mai 2011 &middot; Oct. 2011</p>
+              <p class="section-list-item-title">Intégrateur web &middot; altima&deg;</p>
+              <p class="section-list-item-text">Intégration HTML/CSS/Javascript (La Redoute, Camaïeu, Vertbaudet, Cofidis, La Maison de Valérie...)</p>
+            </li>
+            <li class="section-list-item">
+              <p class="section-list-item-date">Juin 2009 &middot; Avr. 2011 &middot; @xecibles</p>
+              <p class="section-list-item-title">Webdesigner &amp; intégrateur</p>
+              <p class="section-list-item-text">Modifications et créations (Flash, Photoshop, Dreamweaver, HTML, CSS, JavaScript, PHP, MySQL)</p>
+            </li>
+          </ul>
+        </section> 
+      </div>
+      <div class="column right">
+        <section class="section skills">
+          <p class="section-title">Compétences</p>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">HTML</p>
+              <p class="skills-list-item-level" data-level="5"></p>
+            </li>
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">CSS, SASS</p>
+              <p class="skills-list-item-level" data-level="5"></p>
+            </li>
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">JavaScript, TypeScript, EcmaScript</p>
+              <p class="skills-list-item-level" data-level="5"></p>
+            </li>
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">Run tasker & outils</p>
+              <p class="skills-list-item-level" data-level="4"></p>
+            </li>
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">Optimisation</p>
+              <p class="skills-list-item-level" data-level="4"></p>
+            </li>
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">Angular</p>
+              <p class="skills-list-item-level" data-level="3"></p>
+            </li>
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">NodeJs</p>
+              <p class="skills-list-item-level" data-level="3"></p>
+            </li>
+          </ul>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">UI, webdesign</p>
+              <p class="skills-list-item-level" data-level="3"></p>
+            </li>
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">UX</p>
+              <p class="skills-list-item-level" data-level="2"></p>
+            </li>
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">PAO</p>
+              <p class="skills-list-item-level" data-level="2"></p>
+            </li>
+          </ul>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">Anglais</p>
+              <p class="skills-list-item-level" data-level="3"></p>
+            </li>
+            <li class="skills-list-item">
+              <p class="skills-list-item-name">Espagnol</p>
+              <p class="skills-list-item-level" data-level="1"></p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="column left"> 
+        <section class="section school">
+          <p class="section-title">Formation</p>
+          <ul class="section-list">
+            <li class="section-list-item">
+              <p class="section-list-item-date">2008 &middot; 2009</p>
+              <p class="section-list-item-title">Format Concept</p>
+              <p class="section-list-item-text">Formation webdesigner</p>
+            </li>
+            <li class="section-list-item">
+              <p class="section-list-item-date">2005 &middot; 2008</p>
+              <p class="section-list-item-title">ESISAR (INP Grenoble)</p>
+              <p class="section-list-item-text">Ingénierie électrique, électronique et des communications. Dernière année à l’université Technische Universiteit de Eindhoven (Pays-Bas), ERASMUS</p>
+            </li>
+            <li class="section-list-item">
+              <p class="section-list-item-date">2003 &middot; 2005</p>
+              <p class="section-list-item-title">Université Paul Sabatier - Toulouse III</p>
+              <p class="section-list-item-text">DUT Mesures Physiques, option Techniques Instrumentales (électronique, automatique)</p>
+            </li>
+            <li class="section-list-item">
+              <p class="section-list-item-date">2003</p>
+              <p class="section-list-item-title">Lycée Général et Technologique de Mirepoix (09)</p>
+              <p class="section-list-item-text">Baccalauréat scientifique en Sciences de l’Ingénieur, option Physique</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="column right">
+        <section class="section hobbies">
+          <p class="section-title">Et sinon...</p>
+          <p class="section-text">Spéléologie, canyonisme, montagne, secourisme, voyage</p>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

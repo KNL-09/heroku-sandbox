@@ -1,5 +1,5 @@
-@import modules/base
-@import modules/animatronic
+@import base
+@import animatronic
 
 .nav
   margin: 6em auto 2em

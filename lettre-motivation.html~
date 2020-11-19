@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>★ CSS Art ★</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/motivation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="icon" sizes="192x192" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAChAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREREREREAABEREREREQAAERERERERAAAREREREREAABEREREREQAAERERERERAAAREREREREAABEREREREQAAERERERERAAAREREREREAABEREREREQAAERERERERAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAP//AAD//wAA">
+  </head>
+  <body>
+    <div class="page  js-letter">
+      <section class="section card noBackground">
+        <p class="card-name"><span class="card-name-text">Julien FOUQUET</span></p>
+        <p class="card-text">21 rue du Médoc &middot; 31270 TOURNEFEUILLE</p>
+        <p class="card-text">06 76 40 64 87 &middot; ju_fouquet@yahoo.fr</p>
+        <p class="card-title">Développeur front-end</p>
+      </section>
+      <section class="section them noBackground">
+        <p class="them-name"><span class="them-name-text">(company)</span></p>
+        <p class="them-text">(adress)</p>
+        <p class="them-text">(adress2)</p>
+        <p class="them-when">(when)</p>
+      </section>
+      <section class="section mainSills noBackground">
+        <p class="mainSills-name">HTML &middot; CSS &middot; JavaScript</p>
+        <p class="mainSills-name">HTML &middot; CSS &middot; JavaScript</p>
+        <p class="mainSills-name">HTML &middot; CSS &middot; JavaScript</p>
+        <p class="mainSills-name">HTML &middot; CSS &middot; JavaScript</p>
+      </section>
+      
+      <section class="section letter noBackground">
+        <p class="section-title">Objet : Candidature au poste d'(emploi) (reference)</p>
+        <p class="section-text">Madame, Monsieur,</p>
+        <p class="section-text">Etant actuellement à la recherche d’une nouvelle expérience professionnelle, je me permets de vous proposer ma candidature au poste d'(emploi).</p>
+        <p class="section-text">En effet, mon profil correspond à la description recherchée sur l’offre d’emploi vue sur votre site internet.</p>  
+        <p class="section-text">Ma solide expérience d'abord en tant que Développeur front-end, puis en tant que Lead m’a permis d’acquérir toutes les connaissances nécessaires
+           à la bonne exécution des tâches du poste à pourvoir : (competences)
+           Régulièrement confronté aux aléas du métier, je suis capable de répondre aux imprévus en toute autonomie.</p>
+        <p class="section-text">Intégrer votre entreprise représente pour moi une réelle opportunité me permettant de découvrir de nouveaux domaines en mettant à profit mes connaissances et mon expérience.</p>
+        <p class="section-text">Restant à votre disposition pour toute information complémentaire, je suis disponible pour vous rencontrer lors d’un entretien à votre convenance.</p>
+        <p class="section-text">Veuillez agréer, Madame, Monsieur, l’expression de mes sincères salutations.</p>
+      </section>
+      <script src="assets/js/motivation.js"></script>
+    </div>
+  </body>
+</html>
