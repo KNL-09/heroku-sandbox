@@ -34,8 +34,8 @@ http.listen(port, (err) => {
   if (err) {
     return console.log('something bad happened', err)
   }
-  console.log('--------------------------------------------');
+  console.log('--------------------------------------');
   console.log('Start server on port: ' + port);
-  console.log('--------------------------------------------');
+  console.log('--------------------------------------');
 })
 
