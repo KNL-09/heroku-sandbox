@@ -13,6 +13,11 @@ app.get('/messages', (req, res) => {
    // Si on a un historique stocké quelque part
 })
 
+// Rewrite without extension
+app.use(express.static(__dirname + '/', {
+  extensions: ['html']
+}));
+
 io.on('connection', (socket) =>{
   console.log('a user is connected');
   socket.on('disconnect', () => {
