@@ -28,12 +28,3 @@ interval = setInterval(function(){
       }, false);
   }
 }, 1200)
-
-document.addEventListener('scroll', fadeIn, false);
-
-function fadeIn() {
-  if(window.scrollY > 200) { 
-    document.querySelector('.js-fade').classList.remove('isInvisible');
-    document.removeEventListener('scroll', fadeIn, false);
-  }
-}
