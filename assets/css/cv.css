@@ -186,4 +186,6 @@ html, body, input, textarea {
     top: 1.5cm;
     width: 2cm;
     height: 2cm;
-    right: 3.7cm; } }
+    right: 3.7cm; }
+  .hobbies {
+    transform: translateY(-3cm); } }
