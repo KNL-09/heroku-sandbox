@@ -180,3 +180,10 @@ html, body, input, textarea {
   .page .column {
     float: none;
     width: 100%; } }
+
+@media only print {
+  .card-badge {
+    top: 1.5cm;
+    width: 2cm;
+    height: 2cm;
+    right: 3.7cm; } }

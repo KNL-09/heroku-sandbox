@@ -615,17 +615,15 @@ html, body, input, textarea {
     height: .2em; }
   .star:after {
     bottom: auto;
-    top: -.1em; } }
-
-.howISeeFrontEnd {
+    top: -.1em; }
   font-size: 0.625rem;
   padding: 2em 1em;
   font-family: monospace;
   color: #FCFECB;
   margin-top: 2em;
   position: relative;
-  overflow: hidden; }
-  .howISeeFrontEnd:after {
+  overflow: hidden;
+  :after {
     content: " ";
     position: absolute;
     top: 0;
@@ -637,35 +635,35 @@ html, body, input, textarea {
     transition: all linear 600ms;
     transition-delay: 300ms;
     border-radius: 0; }
-  .howISeeFrontEnd-container {
+  -container {
     max-width: 60em;
     margin: 0 auto;
     position: relative;
     z-index: 20;
     transition: opacity linear 600ms;
     transition-delay: 300ms; }
-  .howISeeFrontEnd.isInvisible .howISeeFrontEnd-container {
+  .isInvisible .howISeeFrontEnd-container {
     opacity: 0; }
-  .howISeeFrontEnd.isInvisible:after {
+  .isInvisible:after {
     min-height: 0; }
-  .howISeeFrontEnd-title {
+  -title {
     font-size: 2em;
     line-height: 1.333;
     margin-bottom: .5em;
     padding: .5em 0;
     font-weight: 700;
     border-bottom: 0.05em solid #FCFECB; }
-    .howISeeFrontEnd-title:before {
+    -title:before {
       content: "+";
       display: inline-block;
       padding-right: .2em; }
-  .howISeeFrontEnd-paragraph {
+  -paragraph {
     font-size: 1.4em;
     line-height: 1.333;
     margin-bottom: .5em; }
-    .howISeeFrontEnd-paragraph strong {
+    -paragraph strong {
       position: relative; }
-      .howISeeFrontEnd-paragraph strong:after {
+      -paragraph strong:after {
         content: " ";
         position: absolute;
         bottom: -.2em;
@@ -674,10 +672,10 @@ html, body, input, textarea {
         height: .5em;
         background: #FCFECB;
         opacity: .2; }
-  .howISeeFrontEnd-link {
+  -link {
     color: #FCFECB;
     display: inline-block;
     text-decoration: none;
     border-bottom: 0.2em dotted #FCFECB; }
-    .howISeeFrontEnd-link:focus, .howISeeFrontEnd-link:active, .howISeeFrontEnd-link:hover {
-      opacity: .5; }
+    -link:focus, -link:active, -link:hover {
+      opacity: .5; } }
