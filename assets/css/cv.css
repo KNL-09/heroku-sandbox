@@ -141,6 +141,11 @@ html, body, input, textarea {
     opacity: .7; }
   .card-title {
     font-size: 2em; }
+  .card-badge {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 10; }
 
 .mainSills {
   position: absolute;

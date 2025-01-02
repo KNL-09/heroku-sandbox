@@ -3,15 +3,13 @@
  "version": "1.0.0",
  "scripts": {
   "start": "node server.js",
-  "sass:dev": "node-sass -w assets/sass -o assets/css",
-  "sass:prod": "node-sass assets/sass/home.sass -o assets/css/home.css && node-sass assets/sass/me.sass -o assets/css/me.css && node-sass assets/sass/motivation.sass -o assets/css/motivation.css"
-  },
+  "sass": "node-sass assets/sass/home.sass -o assets/css/ && node-sass assets/sass/cv.sass -o assets/css/ && node-sass assets/sass/motivation.sass -o assets/css/"
+ },
  "license": "MIT",
  "dependencies": {
-  "body-parser": "^1.18.3",
-  "express": "^4.16.4",
-  "http": "0.0.1-security",
-  "node-sass": "^4.11.0",
-  "socket.io": "^3.0.0"
+  "body-parser": "^1.20.3",
+  "express": "^4.21.2",
+  "http": "^0.0.1-security",
+  "node-sass": "^9.0.0"
  }
 }
