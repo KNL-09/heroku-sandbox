@@ -188,4 +188,8 @@ html, body, input, textarea {
     height: 2cm;
     right: 3.7cm; }
   .hobbies {
-    transform: translateY(-3cm); } }
+    transform: translateY(-7cm); }
+  .section-list-item {
+    margin-bottom: 6mm; }
+  .work .section-list-item:last-child {
+    padding-top: 1cm; } }
