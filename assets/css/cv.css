@@ -192,4 +192,8 @@ html, body, input, textarea {
   .section-list-item {
     margin-bottom: 6mm; }
   .work .section-list-item:last-child {
-    padding-top: 1cm; } }
+    padding-top: 1cm; }
+  .skills-list-item-level {
+    -webkit-print-color-adjust: exact; }
+    .skills-list-item-level:after {
+      background: #7c7b79; } }
